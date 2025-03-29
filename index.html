@@ -1,41 +1,82 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>康文昌的在线HTML 教学小工具</title>
-    <style>  
-      body {
-        margin: 0;
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>修勾之家</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div style="
-      background-color: #f1f1f1;
-      text-align: center;
-      padding: 40px;
-    ">
-      <img src='https://i.imgs.ovh/2025/03/18/CxphO.jpeg' alt="图片" width="80px" height="80px">
-    </div>
-    <div style="
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 15px;
-    line-height: 1.7;
-    color: blue;
-    ">
-      <p>第一个简易网站</p>
-      <p>成功</p>
-      <p>wonderful</p>
-    </div>
-    <div style="
-      background-color: #f1f1f1;
-      text-align: center;
-      padding: 40px;
-      font-size: 12px;
-    ">
-      <a href="https://www.midorg.com/h.html">友情链接</a>
-    </div>
+    <header>
+      <button class="menu">&#9776;</button
+      ><!--按钮加载不出来-->
+      <h1>修勾之家</h1>
+      <nav>
+        <ul>
+          <li><a href="#">最新消息</a></li>
+          <li><a href="#">关于我们</a></li>
+          <li><a href="#">会员专区</a></li>
+          <li><a href="#">更多修勾</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="news">
+        <h2>可爱帅气的修勾！</h2>
+        <p>每一条修勾都是美好的</p>
+        <p><a href="#">了解更多</a></p>
+      </section>
+
+      <section class="slogan">
+        <blockquote>"狗是人类最好的朋友"</blockquote>
+      </section>
+
+      <section class="shop">
+        <img
+          src="https://i.imgs.ovh/2025/03/27/ygd1d.jpeg"
+          alt="修勾"
+          width="100%"
+          height="100%"
+        />
+        <div class="info">
+          <h2>修勾乐园欢迎您的到来</h2>
+          <p>
+            享受与小狗一同相处的时光<br />
+            忘掉工作，快乐撸狗
+          </p>
+        </div>
+      </section>
+
+      <section class="product">
+        <div>
+          <img src="https://i.imgs.ovh/2025/03/28/yhUIh.jpeg" alt="修勾" />
+          <h3>牧羊犬</h3>
+          <p>
+            牧羊犬是一种非常可爱的犬种，它的体型大<br />性格温顺，是一种非常适合家庭的犬种
+          </p>
+        </div>
+        <div>
+          <img src="https://i.imgs.ovh/2025/03/28/yhbae.jpeg" alt="修勾" />
+          <h3>狗与风景</h3>
+          <p>图片中的修狗与山水融为一体<br />景色怡人</p>
+        </div>
+        <div>
+          <img src="https://i.imgs.ovh/2025/03/28/yhz5a.jpeg" alt="修勾" />
+          <h3>Cheems</h3>
+          <p>修勾表情包之祖，谜因之王<br />一代传奇，永垂不朽</p>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <p>欢迎订阅修勾日报，可见识到各种修勾</p>
+        <form>
+          <input type="email" placeholder="请输入您的邮箱" required />
+          <button type="submit">订阅</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>修勾之家版权所有 &copy; 2023</p>
+    </footer>
   </body>
 </html>
