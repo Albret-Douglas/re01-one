@@ -178,6 +178,12 @@ input:focus {
     left: 50%;
     transform: translateX(-50%);
   }
+  /*在移动端中将首页图片显示全  
+  .news {
+    height: 100%;
+    width: 100%;
+  }
+  */
   .news h2 {
     font-size: 40px;
   }
